@@ -1,0 +1,6 @@
+- id: go-dochl
+  name: "go-dochl"
+  entry: run-go-dochl.sh
+  files: '\.go$'
+  language: "script"
+  description: "Runs go-dochl, to extract comment before commit"

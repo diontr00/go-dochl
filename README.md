@@ -19,8 +19,8 @@ Using with pre-commit:
 
 ```
 repos:
-  - repo: https://github.com/Bahjat/pre-commit-golang
-    rev: v1.0.2
+  - repo: https://github.com/diontr00/go-dochl
+    rev: latest
     hooks:
       - id: go-dochl
         args: [--keys="TODO,FIX,HACK"] # optional
